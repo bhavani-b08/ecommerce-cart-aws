@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>eCommerce Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>eCommerce Store 🛍️</h1>
+        <p>Cart Items: <span id="cart-count">0</span></p>
+        <div class="products">
+            <div class="product">
+                <p>Smartphone 📱 - $699</p>
+                <button onclick="addToCart('smartphone')">Add to Cart</button>
+                <button onclick="removeFromCart('smartphone')">Remove</button>
+            </div>
+            <div class="product">
+                <p>Laptop 💻 - $999</p>
+                <button onclick="addToCart('laptop')">Add to Cart</button>
+                <button onclick="removeFromCart('laptop')">Remove</button>
+            </div>
+            <div class="product">
+                <p>Headphones 🎧 - $199</p>
+                <button onclick="addToCart('headphones')">Add to Cart</button>
+                <button onclick="removeFromCart('headphones')">Remove</button>
+            </div>
+            <div class="product">
+                <p>Smartwatch ⌚ - $299</p>
+                <button onclick="addToCart('smartwatch')">Add to Cart</button>
+                <button onclick="removeFromCart('smartwatch')">Remove</button>
+            </div>
+            <div class="product">
+                <p>Tablet 📟 - $499</p>
+                <button onclick="addToCart('tablet')">Add to Cart</button>
+                <button onclick="removeFromCart('tablet')">Remove</button>
+            </div>
+            <div class="product">
+                <p>Camera 📷 - $799</p>
+                <button onclick="addToCart('camera')">Add to Cart</button>
+                <button onclick="removeFromCart('camera')">Remove</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
